@@ -1,3 +1,4 @@
+#Reference: https://www.msbiblog.com/2018/05/29/building-ssis-projects-in-visual-studio-team-services/
 $sourceCodeDirPath="c:\User\NPatel\Projects\MySSIS"
 $projectName = "MySSISProject"
 $dtProjFolderToLoad = "$sourceCodeDirPath\dataload\$projectName"
