@@ -5,7 +5,7 @@ $projFilePath = "$sourceCodeDirPath\bin\Development\MySSISProject.ispac"
 $projectName = "MySSISProject"
 $SSISNamespace = "Microsoft.SqlServer.Management.IntegrationServices"
 $SSIDBPassword = "P@assword1"
-$targetFolderName = "LoadData_V2"
+$targetFolderName = "MySSISDeploymentFolder"
 ##------------------
 # Load the IntegrationServices Assembly 
 $assemblyLoadStatus = [Reflection.Assembly]::LoadWithPartialName($SSISNamespace) 
