@@ -1,4 +1,4 @@
-#Reference: https://raw.githubusercontent.com/bensylve/powershell-for-ssis/master/SSIS_Functions.ps1
+#Reference: https://github.com/bensylve/powershell-for-ssis
 function createEnvironmentVariable($variableName, $variableValue, $environmentName, $sensitive, $catalogName, $folderName, $serverConnectionString)
 {
     # Load assemblies
